@@ -29,7 +29,8 @@ requirejs.config({
         ThreeTextGeometry: '//i2dcui.appspot.com/js/three/TextGeometry',
         ThreeFontUtils: '//i2dcui.appspotr.com/js/three/FontUtils',
         ThreeHelvetiker: '//i2dcui.appspot.com/js/three/threehelvetiker',
-        Clipper: '//i2dcui.appspot.com/js/clipper/clipper_unminified'
+        Clipper: '//i2dcui.appspot.com/js/clipper/clipper_unminified',
+        ThreeStlLoader: 'https://i2dcui.appspot.com/geturl?url=http://threejs.org/examples/js/loaders/STLLoader.js'
    },
    shim: {
        ThreeTextGeometry: ['Three'],
